@@ -141,7 +141,7 @@
   function renderTicker() {
     var items = [
       "AI AGENTS", "TEXTILE TOOLS", "MUSIC FIRMWARE", "VOCALOID / 数摇 / SHOEGAZE / EMO",
-      "REVERSE ENGINEERING", PROJECTS.length + " PROJECTS", "ORIGINAL / FORK 标明署名",
+      "REVERSE ENGINEERING", PROJECTS.length + " PROJECTS", "ORIGINAL / CREDITS 标明署名",
       "B站 · 河中子申", "GITHUB PAGES"
     ];
     var one = items.map(function (t) { return "<span>" + t + "</span><i>✕</i>"; }).join("");
