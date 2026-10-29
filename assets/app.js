@@ -476,6 +476,7 @@
   });
 
   gallery.addEventListener("click", function (e) {
+    if (e.target.closest("a")) return;
     var card = e.target.closest(".card");
     if (!card) return;
     location.hash = "#/p/" + card.getAttribute("data-id");
