@@ -176,7 +176,7 @@ window.SITE = {
     {
       id: "skills",
       name: "Zis Skills Collection",
-      zh: "Claude Code Skills 合集",
+      zh: "Claude Code skills / plugins 清单",
       cat: "agents",
       code: "AGT-07",
       status: "active",
@@ -184,18 +184,18 @@ window.SITE = {
       tone: "#EBCB8B",
       pattern: 3,
       authorship: "collection",
-      credit: "合集；部分 skill 来自社区，保留原署名",
-      summary: "57 个 Claude Code Skills，覆盖工程、设计、评审与 TDD。",
+      credit: "索引；自建 skill 与第三方插件分别标注来源",
+      summary: "我现在启用的 Claude Code skills / plugins：4 个自建 skill + 3 个插件 + 13 个内置。",
       body: [
-        "把日常反复用到的 agent 工作流沉淀成可安装的 skill：工程流程、UI/UX 设计、代码评审、TDD、文档与汇报等。",
-        "每个 skill 都有明确的触发条件、执行步骤和验收口径，而不是一段模糊的提示词。"
+        "按本机实际安装与启用状态整理，不把旧版收录但已经不在机器上的社区插件算进来。",
+        "自建 skill 覆盖 ET .prj 批量解析、JCH 花型换色、REA 逆向；启用插件是企业背调、获客、周报。内置技能、已安装未启用的插件、只剩元数据的旧插件分开列。"
       ],
       highlights: [
-        "57 个 skill",
-        "工程 / 设计 / 评审 / TDD",
-        "可直接装进 Claude Code"
+        "4 个自建 skill：ET .prj / JCH / REA",
+        "3 个启用插件：背调 / 获客 / 周报",
+        "内置与未启用插件分开列"
       ],
-      tech: ["Markdown", "Claude Code"],
+      tech: ["Markdown", "Claude Code", "Plugins"],
       links: [
         { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/Zis-skills-collection" }
       ]
