@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Zison Wong — software for the fashion trade</title>
-  <meta name="description" content="Zison Wong，金华，女装外贸 × 软件。AI agent、花型与服装工具、Zoom / FM-1 乐器固件。原创、参与与 fork 逐项署名。">
+  <title>Zison Wong — software, textile, sound</title>
+  <meta name="description" content="Zison Wong，金华，女装外贸 × 软件 × 音乐。AI agent、花型与服装工具、Zoom / FM-1 乐器固件；Vocaloid / 数摇 / Shoegaze / Emo。原创、参与与 fork 逐项署名。">
   <meta name="author" content="Zison Wong">
   <meta name="theme-color" content="#f1ede2">
-  <meta property="og:title" content="Zison Wong — software for the fashion trade">
-  <meta property="og:description" content="女装外贸 × 软件。AI agent、花型与服装工具、Zoom / FM-1 乐器固件。">
+  <meta property="og:title" content="Zison Wong — software, textile, sound">
+  <meta property="og:description" content="女装外贸 × 软件 × 音乐。AI agent、花型与服装工具、Zoom / FM-1 乐器固件；Vocaloid / 数摇 / Shoegaze / Emo。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://zisonzishen0415-stack.github.io/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -69,10 +69,10 @@
         <h1>把卡住的环节，<br><span class="hl">做成工具。</span></h1>
 
         <div class="head-row">
-          <p class="lede">女装外贸 × 软件。白天处理面料、花型、吊牌、尺寸表和生产排期；晚上写 agent、逆向私有格式、给 FM-1 写固件。</p>
+          <p class="lede">女装外贸 × 软件 × 音乐。白天处理面料、花型、吊牌、尺寸表和生产排期；晚上写 agent、逆向私有格式、给 FM-1 写固件；也以「河中子申」的名字在 B 站做 Vocaloid、数摇、Shoegaze 和 Emo。</p>
           <div class="stamp">
             <span class="stamp-kicker">INDEX</span>
-            <strong id="stat-count">34</strong>
+            <strong id="stat-count">47</strong>
             <span class="stamp-line">PROJECTS / ENTRIES</span>
             <span class="stamp-line">原创 · 参与 · fork</span>
           </div>
@@ -81,6 +81,7 @@
         <div class="head-actions">
           <a class="btn btn-solid" href="#works">看项目 <span aria-hidden="true">↓</span></a>
           <a class="btn" href="#/about">关于我 <span aria-hidden="true">→</span></a>
+          <a class="btn" href="https://space.bilibili.com/20410864" target="_blank" rel="noopener">听歌 <span aria-hidden="true">↗</span></a>
           <span class="head-note">/ 每张卡片都标了署名</span>
         </div>
       </header>
@@ -92,7 +93,7 @@
             <h2 id="gallery-title">全部项目</h2>
           </div>
           <div class="works-tools">
-            <span class="result-count" id="result-count">34</span>
+            <span class="result-count" id="result-count">47</span>
             <div class="view-toggle" role="group" aria-label="布局">
               <button type="button" data-view="grid" class="is-on" aria-label="网格视图" title="网格视图">
                 <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -111,14 +112,6 @@
 
         <div class="gallery grid-view" id="gallery" aria-live="polite"></div>
         <p class="empty" id="empty" hidden>没有匹配的项目。换个关键词试试。</p>
-
-        <section class="more" id="more" aria-labelledby="more-title">
-          <div class="more-head">
-            <h3 id="more-title">MORE ON GITHUB</h3>
-            <span>其他公开仓库</span>
-          </div>
-          <ul class="more-list" id="more-list"></ul>
-        </section>
       </section>
     </div>
 
@@ -126,12 +119,12 @@
       <header class="page-head page-head--sub">
         <p class="eyebrow">ABOUT / 关于</p>
         <h1>软件长在<br><span class="hl">流程上。</span></h1>
-        <p class="lede">我是 Zison，在浙江金华做女装外贸，也写软件。</p>
+        <p class="lede">我是 Zison，在浙江金华做女装外贸，也写软件，也做音乐。</p>
       </header>
 
       <div class="about-grid">
         <div class="prose">
-          <p>白天处理面料、花型、吊牌、尺寸表和生产排期；晚上写 agent、逆向私有格式、给 M-VAVE FM-1 写固件。这个站上的项目，大多不是「练手项目」——是某个环节真的卡住了，于是自己做了一个工具。</p>
+          <p>白天处理面料、花型、吊牌、尺寸表和生产排期；晚上写 agent、逆向私有格式、给 M-VAVE FM-1 写固件。也以「河中子申」的名字在 B 站发歌，做 Vocaloid 独立音乐、数摇、Shoegaze 和 Emo。这个站上的项目，大多不是「练手项目」——是某个环节真的卡住了，于是自己做了一个工具。</p>
 
           <h3>01 / 我的做法</h3>
           <ol class="principles">
@@ -144,17 +137,23 @@
           <h3>02 / 在做的方向</h3>
           <p>纺织与服装的全链路工具——花型检索、描稿分色、标签条码、尺寸表、ERP 与生产排期；把逆向工程做成 agent 能用的接口；以及 FM-1 / Zoom 效果器上的固件与音色工具。</p>
 
-          <h3>03 / 关于署名</h3>
+          <h3>03 / 音乐</h3>
+          <p>也以「河中子申」的名字在 B 站发歌：Vocaloid 独立音乐、数摇、Shoegaze、Emo。</p>
+          <p><a href="https://space.bilibili.com/20410864" target="_blank" rel="noopener">B 站：河中子申 ↗</a></p>
+
+          <h3>04 / 关于署名</h3>
           <p>站上有些项目是我原创的，有些是参与的、合作的，也有些只是 fork 来用或参考。标了 FORK / 参与 / 合作 / 衍生的，都涉及别人的工作；没有标的才是原创。具体是谁的，卡片和详情里写了。Fork 与衍生的部分，版权和功劳归原作者。</p>
         </div>
 
         <aside class="about-side">
           <div class="fact"><span>BASE</span><strong>Jinhua, Zhejiang</strong></div>
           <div class="fact"><span>FOCUS</span><strong>女装外贸 × 软件</strong></div>
-          <div class="fact"><span>FIELDS</span><strong>Agent / 逆向 / 纺织 / 音频</strong></div>
-          <div class="fact"><span>CONTACT</span><strong>GitHub</strong></div>
+          <div class="fact"><span>FIELDS</span><strong>Agent / 逆向 / 纺织 / 音乐</strong></div>
+          <div class="fact"><span>MUSIC</span><strong>Vocaloid / 数摇 / Shoegaze / Emo</strong></div>
+          <div class="fact"><span>CONTACT</span><strong>GitHub · Bilibili</strong></div>
           <a class="btn btn-solid btn-block" href="https://github.com/zisonzishen0415-stack" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
-          <p class="side-note">合作、问题，或只是想聊聊某个工具，都可以从 GitHub 开始。</p>
+          <a class="btn btn-block" href="https://space.bilibili.com/20410864" target="_blank" rel="noopener">Bilibili · 河中子申 <span aria-hidden="true">↗</span></a>
+          <p class="side-note">合作、问题，或只是想聊聊某个工具、某首歌，都可以从 GitHub 或 B 站开始。</p>
         </aside>
       </div>
 
@@ -173,44 +172,31 @@
           <span class="link-body"><strong>GitHub</strong><small>全部公开仓库与源码</small></span>
           <span class="link-arrow" aria-hidden="true">↗</span>
         </a>
-        <a class="link-row" href="https://rea.tools" target="_blank" rel="noopener">
+        <a class="link-row" href="https://space.bilibili.com/20410864" target="_blank" rel="noopener">
           <span class="link-no">02</span>
-          <span class="link-body"><strong>REA</strong><small>Reverse Engineer Anything · 原作 morluto，我 fork 并使用</small></span>
-          <span class="link-arrow" aria-hidden="true">↗</span>
-        </a>
-        <a class="link-row" href="https://www.npmjs.com/package/rea-agents" target="_blank" rel="noopener">
-          <span class="link-no">03</span>
-          <span class="link-body"><strong>npm · rea-agents</strong><small>REA 的 npm 包（原作 morluto）</small></span>
+          <span class="link-body"><strong>Bilibili · 河中子申</strong><small>Vocaloid 独立音乐 / 数摇 / Shoegaze / Emo</small></span>
           <span class="link-arrow" aria-hidden="true">↗</span>
         </a>
         <a class="link-row" href="https://zisonzishen0415-stack.github.io/nam-forge/" target="_blank" rel="noopener">
-          <span class="link-no">04</span>
+          <span class="link-no">03</span>
           <span class="link-body"><strong>NAM FORGE</strong><small>NAM → Zoom ZDL 转换器与 128×64 封面工作台</small></span>
           <span class="link-arrow" aria-hidden="true">↗</span>
         </a>
         <a class="link-row" href="https://zisonzishen0415-stack.github.io/nam-forge-covers/" target="_blank" rel="noopener">
-          <span class="link-no">05</span>
+          <span class="link-no">04</span>
           <span class="link-body"><strong>NAM FORGE Covers</strong><small>共享封面库</small></span>
           <span class="link-arrow" aria-hidden="true">↗</span>
         </a>
         <a class="link-row" href="https://zisonzishen0415-stack.github.io/beike-music/" target="_blank" rel="noopener">
-          <span class="link-no">06</span>
+          <span class="link-no">05</span>
           <span class="link-body"><strong>贝壳音乐</strong><small>曲谱检索与预览</small></span>
           <span class="link-arrow" aria-hidden="true">↗</span>
         </a>
         <a class="link-row" href="https://zisonzishen0415-stack.github.io/sloop-consort/" target="_blank" rel="noopener">
-          <span class="link-no">07</span>
+          <span class="link-no">06</span>
           <span class="link-body"><strong>Consort</strong><small>FM-1 手机伴侣</small></span>
           <span class="link-arrow" aria-hidden="true">↗</span>
         </a>
-      </div>
-
-      <div class="more more--page">
-        <div class="more-head">
-          <h3>MORE ON GITHUB</h3>
-          <span>其他公开仓库</span>
-        </div>
-        <ul class="more-list" id="more-list-page"></ul>
       </div>
 
       <div class="back-row"><a class="text-link" href="#/">← 返回项目</a></div>
@@ -224,6 +210,7 @@
       </div>
       <div class="foot-links">
         <a href="https://github.com/zisonzishen0415-stack" target="_blank" rel="noopener">GITHUB ↗</a>
+        <a href="https://space.bilibili.com/20410864" target="_blank" rel="noopener">BILIBILI ↗</a>
         <a href="#/about">ABOUT</a>
         <a href="#/links">LINKS</a>
       </div>

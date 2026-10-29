@@ -512,6 +512,7 @@ h1 {
   box-shadow: 5px 5px 0 var(--line-strong);
 }
 .btn-block { display: flex; justify-content: center; width: 100%; margin-top: 18px; }
+.btn-block + .btn-block { margin-top: 8px; }
 
 /* ---------- works head ---------- */
 
@@ -790,6 +791,7 @@ h1 {
 .card[data-status="live"] { --dot: var(--blue); }
 .card[data-status="wip"] { --dot: var(--warn); }
 .card[data-status="paused"] { --dot: var(--muted); }
+.card[data-status="failed"] { --dot: var(--bad); }
 .card-open { color: var(--ink); }
 
 /* featured cards break the grid */
@@ -942,6 +944,11 @@ h1 {
   line-height: 1.9;
   color: var(--ink-2);
 }
+.prose a {
+  color: var(--blue-deep);
+  border-bottom: 1px solid currentColor;
+}
+.prose a:hover { background: var(--acid); color: #111110; }
 .prose h3 {
   margin: 34px 0 12px;
   padding-bottom: 6px;

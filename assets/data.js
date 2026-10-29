@@ -23,57 +23,14 @@ window.SITE = {
     { id: "tools", label: "Systems & Tools", zh: "系统与工具" }
   ],
 
-  more: [
-    { name: "Swaynav", desc: "Wayland 键盘驱动鼠标 · Vim 风格网格导航", url: "https://github.com/zisonzishen0415-stack/swaynav" },
-    { name: "Clashtui", desc: "Clash / mihomo 代理 TUI 管理器", url: "https://github.com/zisonzishen0415-stack/clashtui" },
-    { name: "Blocking Guard", desc: "阻止 AI agent 执行阻塞命令", url: "https://github.com/zisonzishen0415-stack/blocking-guard" },
-    { name: "AmpNeve", desc: "Zoom G1on / B1on 的 ZDL 效果模块", url: "https://github.com/zisonzishen0415-stack/ampneve" },
-    { name: "SansAmp B1on", desc: "SansAmp Bass Driver 白盒电路复刻", url: "https://github.com/zisonzishen0415-stack/sansamp-b1on" },
-    { name: "ESP32 FDN Reverb", desc: "ESP32 实时 FDN 混响", url: "https://github.com/zisonzishen0415-stack/esp32-fdnreverb" },
-    { name: "TrackPoint Config", desc: "ThinkPad 小红点 TUI 配置工具", url: "https://github.com/zisonzishen0415-stack/trackpoint-config" },
-    { name: "SDDM Nord Login", desc: "Nord 配色的 SDDM 登录主题", url: "https://github.com/zisonzishen0415-stack/SDDM-nord-login" }
-  ],
-
   projects: [
     /* ───────────────────────── AI & AGENTS ───────────────────────── */
-    {
-      id: "rea",
-      name: "REA",
-      zh: "逆向工程智能体",
-      cat: "agents",
-      code: "AGT-01",
-      status: "active",
-      icon: "eye",
-      tone: "#88C0D0",
-      pattern: 1,
-      authorship: "fork",
-      credit: "原作 morluto · 本仓库为 fork",
-      creditUrl: "https://github.com/morluto/rea",
-      featured: false,
-      summary: "看上一个功能，就把它弄懂——从应用行为一直到二进制。",
-      body: [
-        "REA（Reverse Engineer Anything）是一个面向逆向工程的 MCP：原生二进制、托管代码、Electron / JavaScript、固件和浏览器运行时，都能在同一套接口下打开、观察、反编译与比对。",
-        "它给的不只是反汇编窗口，而是把「这个功能是怎么实现的」拆成可执行的调查：追踪调用路径、对比版本差异、核对静态与运行时证据、导出带覆盖率的证据包。发布在 npm（rea-agents），文档站在 rea.tools。"
-      ],
-      highlights: [
-        "覆盖原生、托管、Electron、固件与 Web 五类目标",
-        "20+ 语言文档；MCP 接口可接任意 agent",
-        "结论带证据、覆盖率与限制说明"
-      ],
-      tech: ["TypeScript", "MCP", "Node.js", "Ghidra"],
-      links: [
-        { label: "原作 GitHub", url: "https://github.com/morluto/rea" },
-        { label: "npm", url: "https://www.npmjs.com/package/rea-agents" },
-        { label: "rea.tools", url: "https://rea.tools" },
-        { label: "我的 fork", url: "https://github.com/zisonzishen0415-stack/rea" }
-      ]
-    },
     {
       id: "spica",
       name: "Spica",
       zh: "命令行编码 agent",
       cat: "agents",
-      code: "AGT-02",
+      code: "AGT-01",
       status: "active",
       icon: "terminal",
       tone: "#81A1C1",
@@ -98,7 +55,7 @@ window.SITE = {
       name: "Puttyon",
       zh: "AI 服装虚拟试穿",
       cat: "agents",
-      code: "AGT-03",
+      code: "AGT-02",
       status: "live",
       icon: "shirt",
       tone: "#8FBCBB",
@@ -124,7 +81,7 @@ window.SITE = {
       name: "Customer Acquisition",
       zh: "获客 / 相似客户发现",
       cat: "agents",
-      code: "AGT-04",
+      code: "AGT-03",
       status: "active",
       icon: "search",
       tone: "#B48EAD",
@@ -148,7 +105,7 @@ window.SITE = {
       name: "Company Background Check",
       zh: "企业背调",
       cat: "agents",
-      code: "AGT-05",
+      code: "AGT-04",
       status: "active",
       icon: "shield",
       tone: "#5E81AC",
@@ -172,7 +129,7 @@ window.SITE = {
       name: "PI Company Researcher",
       zh: "两条 agent loop 的桌面宿主",
       cat: "agents",
-      code: "AGT-06",
+      code: "AGT-05",
       status: "active",
       icon: "window",
       tone: "#88C0D0",
@@ -196,7 +153,7 @@ window.SITE = {
       name: "Weekly Report",
       zh: "从代码证据重建周报",
       cat: "agents",
-      code: "AGT-07",
+      code: "AGT-06",
       status: "active",
       icon: "doc",
       tone: "#8FBCBB",
@@ -221,7 +178,7 @@ window.SITE = {
       name: "Zis Skills Collection",
       zh: "Claude Code Skills 合集",
       cat: "agents",
-      code: "AGT-08",
+      code: "AGT-07",
       status: "active",
       icon: "spark",
       tone: "#EBCB8B",
@@ -248,7 +205,7 @@ window.SITE = {
       name: "WFY RAG",
       zh: "外贸女装私有 RAG",
       cat: "agents",
-      code: "AGT-09",
+      code: "AGT-08",
       status: "active",
       icon: "database",
       tone: "#A3BE8C",
@@ -272,7 +229,7 @@ window.SITE = {
       name: "Literia",
       zh: "外贸文档翻译",
       cat: "agents",
-      code: "AGT-10",
+      code: "AGT-09",
       status: "active",
       icon: "translate",
       tone: "#D08770",
@@ -829,6 +786,157 @@ window.SITE = {
         { label: "Live", url: "https://zisonzishen0415-stack.github.io/beike-music/" }
       ]
     },
+    {
+      id: "reverson",
+      name: "Reverson",
+      zh: "反向混响",
+      cat: "music",
+      code: "MUS-09",
+      status: "failed",
+      icon: "wave",
+      tone: "#BF616A",
+      pattern: 5,
+      summary: "给 shoegaze / indie 写的反向混响，先做 VST3，再往 Zoom 效果器上搬。",
+      body: [
+        "从零写的 reverse reverb，目标是 DIIV / MBV 那类音色：每个音一出来就被立即回应，反向声在零 predelay 下加速堆起，再自然收住；Rev 旋钮从正向前置多抽头洗到真正的反向读头。",
+        "DSP 全部原创，先做成 VST3 在 DAW 里调，再移植到 Zoom G1on / MS 系列的 ZDL。固件部分在 G1on 实机上未能稳定工作，项目状态已明确标为失败——VST3 与 DSP 仍保留。"
+      ],
+      highlights: [
+        "零 predelay 的反向 swell",
+        "VST3 + Zoom ZDL 移植",
+        "G1on 实机未达成，状态已标注失败"
+      ],
+      tech: ["C++", "VST3", "DSP"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/reverson" }
+      ]
+    },
+    {
+      id: "pedals",
+      name: "Pedals",
+      zh: "数据驱动 VST3 综合效果器",
+      cat: "music",
+      code: "MUS-10",
+      status: "active",
+      icon: "sliders",
+      tone: "#8FBCBB",
+      pattern: 6,
+      summary: "每个音色是一份 JSON 图，插件运行时解释执行，改 JSON 保存就热重载。",
+      body: [
+        "基于数据驱动 DSP 图的 VST3 综合效果器：16 个 DSP 模块（增益、过载 / 失真、双二阶滤波、延迟、混响、合唱、镶边、移相、颤音、压缩、噪声门、三段 EQ、箱体模拟、LFO），8 个偏纳什维尔录音室取向的出厂预设。",
+        "预设是 JSON：nodes 是模块实例和参数，links 是连线与调制；改设计文件保存约 1 秒热重载，不用重开插件。附设计校验、离线渲染、客观指标检查和把单个设计导出成独立 VST3 的工具链。"
+      ],
+      highlights: [
+        "16 个 DSP 模块 + 8 个预设",
+        "JSON 图热重载",
+        "设计校验 / 离线渲染 / 独立 VST3 导出"
+      ],
+      tech: ["C++", "JUCE", "VST3", "JSON"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/pedals" }
+      ]
+    },
+    {
+      id: "esp32-fdnreverb",
+      name: "ESP32 FDN Reverb",
+      zh: "ESP32 实时混响",
+      cat: "music",
+      code: "MUS-11",
+      status: "active",
+      icon: "chip",
+      tone: "#A3BE8C",
+      pattern: 1,
+      summary: "在 ESP32-LyraT 上跑的 8 延迟线 FDN 实时混响。",
+      body: [
+        "Feedback Delay Network 的嵌入式实现：8 条延迟线、输入双二阶滤波（50Hz HPF + 12kHz LPF）、wet 输出 8kHz LPF；约 5.8ms 处理延迟，适合实时音频。",
+        "基于 ESP-IDF、I2S 和 LyraT 4.3 板上的 ES8388 codec；参数可随房间大小和音色调整。"
+      ],
+      highlights: [
+        "8 延迟线 FDN",
+        "约 5.8ms 延迟",
+        "ESP32-LyraT / ESP-IDF"
+      ],
+      tech: ["C", "ESP-IDF", "I2S", "DSP"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/esp32-fdnreverb" }
+      ]
+    },
+    {
+      id: "zoom-b1on-patches",
+      name: "Zoom B1on Patches Manager",
+      zh: "B1on 预设管理器",
+      cat: "music",
+      code: "MUS-12",
+      status: "active",
+      icon: "sliders",
+      tone: "#D08770",
+      pattern: 2,
+      credit: "协议基于实测逆向；社区资料 ZoomPedalFun",
+      summary: "以设备真实状态为准，管理 Zoom B1on 的 33 个预设和 147 个 ZDL 模块。",
+      body: [
+        "Windows 桌面软件：连接 B1on 读取型号、固件、编辑器模式与全部预设；效果链最多 5 槽，卡片调参、ON/OFF、拖动换序、双击替换。参数控件由 ZDL 描述符推导，未定义模块按 P1–P9 编辑。",
+        "DSP 预算超过 210 时预警并禁止写入；支持本地 JSON 预设库、整机备份 / 恢复。模块清单来自设备实读，协议基于 B1on 固件 1.30 的实测逆向。"
+      ],
+      highlights: [
+        "设备实读 147 个 ZDL 模块",
+        "5 槽效果链可视化编辑",
+        "DSP 预算 + 整机备份 / 恢复"
+      ],
+      tech: ["Python", "Windows", "Zoom B1on"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/zoom-b1on-patches-manager" }
+      ]
+    },
+    {
+      id: "ampneve",
+      name: "AmpNeve",
+      zh: "吉他音箱模拟",
+      cat: "music",
+      code: "MUS-13",
+      status: "failed",
+      icon: "sliders",
+      tone: "#D08770",
+      pattern: 3,
+      summary: "从零写的 amp + 2x12/4x12 cab + Neve 染色，做成 VST3 和 Zoom ZDL。",
+      body: [
+        "把 DI / preamp 吉他声做成「过 clean amp + cab + Neve console」的音色：V1 输入级、V2 冷削波、Miller 电容低通，全部原创 DSP，不含工厂算法。",
+        "先做 VST3，再移植到 G1on / MS 系列 ZDL；ZDL 在 G1on 实机上未能稳定工作，状态已标注失败。"
+      ],
+      highlights: [
+        "原创 amp / cab / Neve DSP",
+        "VST3 + Zoom ZDL",
+        "G1on 实机未达成"
+      ],
+      tech: ["C++", "VST3", "DSP"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/ampneve" }
+      ]
+    },
+    {
+      id: "sansamp-b1on",
+      name: "SansAmp B1on",
+      zh: "Bass Driver 白盒复刻",
+      cat: "music",
+      code: "MUS-14",
+      status: "active",
+      icon: "sliders",
+      tone: "#A3BE8C",
+      pattern: 4,
+      summary: "按电路级白盒建模复刻 SansAmp Bass Driver DI，做成 B1on / G1on 能加载的 ZDL。",
+      body: [
+        "9 旋钮三相页 + 版本模式开关；v0 已完成核心 DSP、x86 渲染器、ZDL 构建 / 验证全链路，试听已出，下一步是细节校音。",
+        "Ziddle 模拟器全曲渲染 NaN=0；ZDL 与 x86 同核逐样本相关 1.00000，残差在 16bit 量化级。"
+      ],
+      highlights: [
+        "电路级白盒建模",
+        "9 旋钮 + 版本模式",
+        "ZDL vs x86 逐样本相关 1.00000"
+      ],
+      tech: ["Python", "ZDL", "DSP"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/sansamp-b1on" }
+      ]
+    },
 
     /* ───────────────────────── SYSTEMS & TOOLS ───────────────────────── */
     {
@@ -901,6 +1009,206 @@ window.SITE = {
       tech: ["Python", "pandas", "akshare", "matplotlib"],
       links: [],
       private: true
+    },
+    {
+      id: "swaynav",
+      name: "Swaynav",
+      zh: "Wayland 键盘鼠标",
+      cat: "tools",
+      code: "TOOL-04",
+      status: "active",
+      icon: "mouse",
+      tone: "#81A1C1",
+      pattern: 4,
+      summary: "Wayland 下用键盘开鼠标：hjkl 移动准星，点、拖、滚都不用碰鼠标。",
+      body: [
+        "keynav / warpd 的 Wayland 替代，跑在 Sway、Hyprland、river、labwc、wayfire 上；十字准星覆盖层，hjkl 网格导航，支持点击、拖拽、滚动和宏。",
+        "用 GTK3 + gtk-layer-shell 画覆盖层，通过 /dev/uinput 发指针事件；带 dotoold 用户服务和一键安装脚本。"
+      ],
+      highlights: [
+        "Vim 风格 hjkl 导航",
+        "点击 / 拖拽 / 滚动 / 宏",
+        "Sway / Hyprland / river / labwc / wayfire"
+      ],
+      tech: ["C", "GTK3", "Wayland", "libinput"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/swaynav" }
+      ]
+    },
+    {
+      id: "clashtui",
+      name: "ClashTUI",
+      zh: "Clash / mihomo 代理 TUI",
+      cat: "tools",
+      code: "TOOL-05",
+      status: "active",
+      icon: "network",
+      tone: "#8FBCBB",
+      pattern: 5,
+      summary: "单文件编译的 Clash/mihomo TUI 管理器，安全、实用、简洁。",
+      body: [
+        "为 Linux 桌面用户做的代理管理工具：订阅导入、节点延迟测试与切换、自动选择最快、一键启停内核、系统代理设置和实时日志；Vim 风格 j/k/h/l 导航。",
+        "v2.0 加了配置校验、修改前自动备份、状态持久化、启动健康检查、僵尸进程清理和 TUN 模式能力检查 / 自动降级。"
+      ],
+      highlights: [
+        "单文件编译，无外部依赖",
+        "订阅 / 节点 / 延迟 / 自动最快",
+        "配置备份、崩溃恢复与 TUN 保护"
+      ],
+      tech: ["Go", "TUI", "Clash / mihomo"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/clashtui" }
+      ]
+    },
+    {
+      id: "trackpoint-config",
+      name: "TrackPoint Config",
+      zh: "小红点配置工具（X11）",
+      cat: "tools",
+      code: "TOOL-06",
+      status: "active",
+      icon: "mouse",
+      tone: "#D08770",
+      pattern: 6,
+      summary: "给 X11 下的 ThinkPad 小红点做的彩色 TUI 配置工具。",
+      body: [
+        "彩色 TUI 菜单，自动识别 evdev / libinput；用 1–10 的用户刻度调滚动速度、指针速度、加速度和自然滚动；配置可持久化到 systemd / 桌面自启，支持命名 profile。",
+        "X11 下走 xinput；Wayland / Sway 版见 TrackPoint Wayland。"
+      ],
+      highlights: [
+        "evdev / libinput 自动识别",
+        "1–10 刻度，实时调整",
+        "X11 / xinput"
+      ],
+      tech: ["Shell", "Linux", "xinput"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/trackpoint-config" }
+      ]
+    },
+    {
+      id: "trackpoint-wayland",
+      name: "TrackPoint Wayland",
+      zh: "小红点的 Wayland 版",
+      cat: "tools",
+      code: "TOOL-06W",
+      status: "active",
+      icon: "mouse",
+      tone: "#8FBCBB",
+      pattern: 2,
+      summary: "在 Sway 下用 swaymsg + libinput 配小红点，替代 X11 的 xinput。",
+      body: [
+        "TrackPoint 配置工具的 Wayland 版：TUI 菜单，用 swaymsg 和 libinput 读写设置；带 autostart 脚本，适合 Sway。",
+        "X11 版见 TrackPoint Config。"
+      ],
+      highlights: [
+        "Wayland / Sway",
+        "swaymsg + libinput",
+        "TUI + autostart"
+      ],
+      tech: ["Shell", "Wayland", "Sway", "libinput"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/trackpoint-wayland" }
+      ]
+    },
+    {
+      id: "typelight",
+      name: "TypeLight",
+      zh: "打字指示灯",
+      cat: "tools",
+      code: "TOOL-07",
+      status: "active",
+      icon: "keyboard",
+      tone: "#EBCB8B",
+      pattern: 1,
+      summary: "每敲一下键，ThinkPad 电源灯闪一下；顺带一个 Waybar 按键计数模块。",
+      body: [
+        "一个很小的守护进程：监听键盘事件，让 ThinkPad 电源 LED 随每次按键脉冲。约 2–3MB 内存、接近 0 CPU，事件驱动不轮询。",
+        "附带 Waybar 模块，显示按键数和打字状态；带 autostart 和卸载脚本。"
+      ],
+      highlights: [
+        "按键驱动电源 LED",
+        "约 2–3MB 内存",
+        "Waybar 按键计数模块"
+      ],
+      tech: ["Shell", "Linux", "evdev", "Waybar"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/typelight4waybar" }
+      ]
+    },
+    {
+      id: "sddm-nord",
+      name: "SDDM Nord Login",
+      zh: "Nord 登录主题",
+      cat: "tools",
+      code: "TOOL-08",
+      status: "active",
+      icon: "window",
+      tone: "#88C0D0",
+      pattern: 2,
+      summary: "一个极简的 Nord 配色 SDDM 登录屏，和 swaylock / waybar / foot 对齐。",
+      body: [
+        "带壁纸同步与半透明遮罩的居中登录卡；时钟、会话选择、重启 / 关机按钮；方向键 + Tab 键盘导航。",
+        "让登录屏和桌面其他 Nord 组件看起来是同一套东西。"
+      ],
+      highlights: [
+        "Nord 配色",
+        "壁纸同步 + 半透明遮罩",
+        "纯键盘导航"
+      ],
+      tech: ["QML", "SDDM", "Linux"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/SDDM-nord-login" }
+      ]
+    },
+    {
+      id: "blocking-guard",
+      name: "Blocking Guard",
+      zh: "阻止 agent 跑阻塞命令",
+      cat: "tools",
+      code: "TOOL-09",
+      status: "active",
+      icon: "shield",
+      tone: "#BF616A",
+      pattern: 3,
+      summary: "让 AI agent 别再把会话卡在 vim、htop、sudo 和 REPL 里。",
+      body: [
+        "一个约束 agent 行为的 skill：明确列出会阻塞的命令（交互式 TUI、编辑器、密码提示、REPL、长跑服务），要求先读 / 查再执行，并抵抗「就这一次」「保证会退出」之类的合理化。",
+        "15 个测试场景，规则是 NEVER RUN → ALWAYS VERIFY。"
+      ],
+      highlights: [
+        "15 个测试场景",
+        "覆盖 TUI / 编辑器 / sudo / REPL",
+        "NEVER RUN → ALWAYS VERIFY"
+      ],
+      tech: ["Skill", "Shell", "TDD"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/blocking-guard" }
+      ]
+    },
+    {
+      id: "acid-lava",
+      name: "Acid & Lava Light",
+      zh: "终端迷幻灯",
+      cat: "tools",
+      code: "TOOL-10",
+      status: "active",
+      icon: "spark",
+      tone: "#B48EAD",
+      pattern: 4,
+      summary: "两个终端玩具：迷幻图案发生器，和一盏会流动的熔岩灯。",
+      body: [
+        "纯 Python、24-bit 真彩、半块字符（▀）做 2× 纵向分辨率。acid.py 随机切换多种流动的迷幻图案；lava.py 用 metaball 物理模拟熔岩灯的上升、拉伸、融合、分裂和滴落。",
+        "无依赖，Ctrl+C 退出。"
+      ],
+      highlights: [
+        "纯 Python，无依赖",
+        "24-bit 真彩 + 半块字符",
+        "metaball 熔岩灯"
+      ],
+      tech: ["Python", "ANSI", "Terminal"],
+      links: [
+        { label: "GitHub", url: "https://github.com/zisonzishen0415-stack/acid-and-lava-light" }
+      ]
     }
   ]
 };

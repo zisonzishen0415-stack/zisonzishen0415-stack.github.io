@@ -10,6 +10,10 @@
   var ICONS = {
     eye: '<path d="M2.5 12S6 6 12 6s9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="2.6"/>',
     terminal: '<rect x="3" y="4" width="18" height="16" rx="1"/><path d="m7 9 3 3-3 3M13.5 15H17"/>',
+    mouse: '<rect x="7" y="2.5" width="10" height="19" rx="5"/><path d="M12 2.5v6"/>',
+    network: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/>',
+    keyboard: '<rect x="2.5" y="6" width="19" height="12" rx="1.5"/><path d="M6 10h.01M9 10h.01M12 10h.01M15 10h.01M18 10h.01M7 14h10"/>',
+    sliders: '<path d="M4 6h10M18 6h2M4 12h4M14 12h6M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/>',
     shirt: '<path d="M8.5 4 4 6.8l2 4 2.2-1.1V20h7.6V9.7L18 10.8l2-4L15.5 4 13 5.5h-2L8.5 4Z"/>',
     search: '<circle cx="11" cy="11" r="6.3"/><path d="m15.8 15.8 4.7 4.7"/>',
     shield: '<path d="M12 3 4.5 6v5.6c0 4.6 7.5 8.4 7.5 8.4s7.5-3.8 7.5-8.4V6L12 3Z"/><path d="m9 12 2 2 4-4"/>',
@@ -41,7 +45,8 @@
     active: "活跃",
     live: "已上线",
     wip: "开发中",
-    paused: "暂停"
+    paused: "暂停",
+    failed: "未达成"
   };
 
   var AUTHORSHIP = {
@@ -66,7 +71,8 @@
     active: "var(--green)",
     live: "var(--blue)",
     wip: "var(--warn)",
-    paused: "var(--muted)"
+    paused: "var(--muted)",
+    failed: "var(--bad)"
   };
 
   var state = {
@@ -86,7 +92,6 @@
   var gallery = $("#gallery");
   var aboutPanel = $("#about-panel");
   var linksPanel = $("#links-panel");
-  var moreBox = $("#more");
   var searchInput = $("#search");
   var modal = $("#modal");
   var modalCard = $(".modal-card", modal);
@@ -135,21 +140,12 @@
 
   function renderTicker() {
     var items = [
-      "AI AGENTS", "TEXTILE TOOLS", "MUSIC FIRMWARE", "REVERSE ENGINEERING",
-      PROJECTS.length + " PROJECTS", "ORIGINAL / FORK 标明署名", "GITHUB PAGES"
+      "AI AGENTS", "TEXTILE TOOLS", "MUSIC FIRMWARE", "VOCALOID / 数摇 / SHOEGAZE / EMO",
+      "REVERSE ENGINEERING", PROJECTS.length + " PROJECTS", "ORIGINAL / FORK 标明署名",
+      "B站 · 河中子申", "GITHUB PAGES"
     ];
     var one = items.map(function (t) { return "<span>" + t + "</span><i>✕</i>"; }).join("");
     $("#ticker-track").innerHTML = one + one;
-  }
-
-  function renderMoreLists() {
-    var html = window.SITE.more.map(function (m) {
-      return '<li><a href="' + m.url + '" target="_blank" rel="noopener">' +
-        '<span class="m-name">' + m.name + "</span>" +
-        '<span class="m-desc">' + m.desc + "</span></a></li>";
-    }).join("");
-    $("#more-list").innerHTML = html;
-    $("#more-list-page").innerHTML = html;
   }
 
   function renderCategories() {
@@ -216,8 +212,6 @@
     else if (state.cat === "all") title = "全部项目";
     else title = categoryById(state.cat).zh;
     $("#gallery-title").textContent = title;
-
-    moreBox.hidden = !(state.page === "projects" && state.cat === "all" && !state.q);
   }
 
   /* ---------- pages ---------- */
@@ -240,7 +234,7 @@
 
     document.title = page === "about" ? "About — Zison Wong"
       : page === "links" ? "Links — Zison Wong"
-      : "Zison Wong — software for the fashion trade";
+      : "Zison Wong — software, textile, sound";
 
     if (changed) window.scrollTo(0, 0);
   }
@@ -337,7 +331,7 @@
     document.body.classList.remove("modal-open");
     document.title = state.page === "about" ? "About — Zison Wong"
       : state.page === "links" ? "Links — Zison Wong"
-      : "Zison Wong — software for the fashion trade";
+      : "Zison Wong — software, textile, sound";
 
     if (touchHistory) {
       history.replaceState(null, "", state.cat === "all" ? "#/" : "#/c/" + state.cat);
@@ -549,7 +543,6 @@
   });
 
   renderTicker();
-  renderMoreLists();
   renderCategories();
   $("#stat-count").textContent = String(PROJECTS.length);
 
