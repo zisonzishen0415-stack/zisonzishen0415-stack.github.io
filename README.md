@@ -4,7 +4,7 @@
 纸感 + 墨黑 + Nord 蓝 + 荧光黄，硬边框、错位网格、跑马灯。
 视觉语言参考同作者的 [FRET · 跑场乐理](../乐理)（纸/墨/红/酸那套编辑排版），主色改为 Nord 蓝。
 
-音乐：B 站「河中子申」——<https://space.bilibili.com/20410864>
+音乐：B 站「河中子申」——<https://space.bilibili.com/20410864>；参与专辑《四进制夏日》《tetogazer》《趁热打流》等。
 
 纯 HTML / CSS / JS，无构建、无外部字体，直接扔到 GitHub Pages。
 
