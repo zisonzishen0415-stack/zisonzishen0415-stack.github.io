@@ -1,0 +1,742 @@
+- generic [active] [ref=f3e1]:
+  - complementary "Site index" [ref=f3e2]:
+    - link "ZISON. SOFTWARE / TEXTILE / SOUND" [ref=f3e3] [cursor=pointer]:
+      - /url: "#/"
+      - strong [ref=f3e4]: ZISON.
+      - generic [ref=f3e5]: SOFTWARE / TEXTILE / SOUND
+    - navigation [ref=f3e6]:
+      - link "All works 34" [ref=f3e7] [cursor=pointer]:
+        - /url: "#/"
+        - generic [ref=f3e8]: All works
+        - generic [ref=f3e9]: "34"
+      - link "AI & Agents 10" [ref=f3e10] [cursor=pointer]:
+        - /url: "#/c/agents"
+        - generic [ref=f3e11]: AI & Agents
+        - generic [ref=f3e12]: "10"
+      - link "Textile & Apparel 13" [ref=f3e13] [cursor=pointer]:
+        - /url: "#/c/textile"
+        - generic [ref=f3e14]: Textile & Apparel
+        - generic [ref=f3e15]: "13"
+      - link "Music & Hardware 8" [ref=f3e16] [cursor=pointer]:
+        - /url: "#/c/music"
+        - generic [ref=f3e17]: Music & Hardware
+        - generic [ref=f3e18]: "8"
+      - link "Systems & Tools 3" [ref=f3e19] [cursor=pointer]:
+        - /url: "#/c/tools"
+        - generic [ref=f3e20]: Systems & Tools
+        - generic [ref=f3e21]: "3"
+    - generic [ref=f3e22]:
+      - generic [ref=f3e23]: SEARCH / 搜索
+      - generic [ref=f3e24]:
+        - searchbox "SEARCH / 搜索" [ref=f3e28]
+        - generic [ref=f3e29]: /
+    - generic [ref=f3e30]:
+      - button "LIGHT MODE" [ref=f3e31] [cursor=pointer]:
+        - generic [aria-hidden] [ref=f3e32]: ◐
+      - link "ABOUT / 关于" [ref=f3e34] [cursor=pointer]:
+        - /url: "#/about"
+        - generic [aria-hidden] [ref=f3e35]: ▤
+        - text: ABOUT / 关于
+      - link "LINKS / 链接" [ref=f3e36] [cursor=pointer]:
+        - /url: "#/links"
+        - generic [aria-hidden] [ref=f3e37]: ↗
+        - text: LINKS / 链接
+      - link "GITHUB" [ref=f3e38] [cursor=pointer]:
+        - /url: https://github.com/zisonzishen0415-stack
+        - generic [aria-hidden] [ref=f3e39]: ◆
+        - text: GITHUB
+  - main [ref=f3e40]:
+    - generic [ref=f3e42]:
+      - generic [ref=f3e43]: AI AGENTS
+      - generic [ref=f3e44]: ✕
+      - generic [ref=f3e45]: TEXTILE TOOLS
+      - generic [ref=f3e46]: ✕
+      - generic [ref=f3e47]: MUSIC FIRMWARE
+      - generic [ref=f3e48]: ✕
+      - generic [ref=f3e49]: REVERSE ENGINEERING
+      - generic [ref=f3e50]: ✕
+      - generic [ref=f3e51]: 34 PROJECTS
+      - generic [ref=f3e52]: ✕
+      - generic [ref=f3e53]: ORIGINAL / FORK 标明署名
+      - generic [ref=f3e54]: ✕
+      - generic [ref=f3e55]: GITHUB PAGES
+      - generic [ref=f3e56]: ✕
+      - generic [ref=f3e57]: AI AGENTS
+      - generic [ref=f3e58]: ✕
+      - generic [ref=f3e59]: TEXTILE TOOLS
+      - generic [ref=f3e60]: ✕
+      - generic [ref=f3e61]: MUSIC FIRMWARE
+      - generic [ref=f3e62]: ✕
+      - generic [ref=f3e63]: REVERSE ENGINEERING
+      - generic [ref=f3e64]: ✕
+      - generic [ref=f3e65]: 34 PROJECTS
+      - generic [ref=f3e66]: ✕
+      - generic [ref=f3e67]: ORIGINAL / FORK 标明署名
+      - generic [ref=f3e68]: ✕
+      - generic [ref=f3e69]: GITHUB PAGES
+      - generic [ref=f3e70]: ✕
+    - generic [ref=f3e71]:
+      - generic [ref=f3e72]:
+        - paragraph [ref=f3e73]: ■ ZISON WONG / 金华，浙江 / 2026
+        - heading "把卡住的环节， 做成工具。" [level=1] [ref=f3e74]: 把卡住的环节，做成工具。
+        - generic [ref=f3e75]:
+          - paragraph [ref=f3e76]: 女装外贸 × 软件。白天处理面料、花型、吊牌、尺寸表和生产排期；晚上写 agent、逆向私有格式、给 FM-1 写固件。
+          - generic [ref=f3e77]:
+            - generic [ref=f3e78]: INDEX
+            - strong [ref=f3e79]: "34"
+            - generic [ref=f3e80]: PROJECTS / ENTRIES
+            - generic [ref=f3e81]: 原创 · 参与 · fork
+        - generic [ref=f3e82]:
+          - link "看项目" [ref=f3e83] [cursor=pointer]:
+            - /url: "#works"
+            - text: 看项目
+            - generic [aria-hidden] [ref=f3e84]: ↓
+          - link "关于我" [ref=f3e85] [cursor=pointer]:
+            - /url: "#/about"
+            - text: 关于我
+            - generic [aria-hidden] [ref=f3e86]: →
+      - generic [ref=f3e87]:
+        - generic [ref=f3e88]:
+          - generic [ref=f3e89]:
+            - paragraph [ref=f3e90]: ■ WORKS / 作品
+            - heading "全部项目" [level=2] [ref=f3e91]
+          - generic [ref=f3e92]:
+            - generic [ref=f3e93]: 34 / 34
+            - group "布局" [ref=f3e94]:
+              - button "网格视图" [ref=f3e95] [cursor=pointer]
+              - button "列表视图" [ref=f3e101] [cursor=pointer]
+        - generic [ref=f3e104]:
+          - button "AGT-01 01 AI & Agents FORK REA 逆向工程智能体 看上一个功能，就把它弄懂——从应用行为一直到二进制。 TypeScript MCP Node.js 原作 morluto · 本仓库为 fork ↗ 活跃 打开 ↗" [ref=f3e105] [cursor=pointer]:
+            - generic [ref=f3e106]:
+              - generic [ref=f3e107]: AGT-01
+              - generic: "01"
+            - generic [ref=f3e112]:
+              - generic [ref=f3e113]:
+                - generic [ref=f3e114]: AI & Agents
+                - generic [ref=f3e115]: FORK
+              - heading "REA" [level=3] [ref=f3e116]
+              - paragraph [ref=f3e117]: 逆向工程智能体
+              - paragraph [ref=f3e118]: 看上一个功能，就把它弄懂——从应用行为一直到二进制。
+              - generic [ref=f3e119]:
+                - generic [ref=f3e120]: TypeScript
+                - generic [ref=f3e121]: MCP
+                - generic [ref=f3e122]: Node.js
+              - paragraph [ref=f3e123]:
+                - link "原作 morluto · 本仓库为 fork ↗" [ref=f3e124]:
+                  - /url: https://github.com/morluto/rea
+            - generic [ref=f3e125]:
+              - generic [ref=f3e126]: 活跃
+              - generic [ref=f3e128]: 打开 ↗
+          - button "AGT-02 02 AI & Agents Spica 命令行编码 agent 一个开源的终端 AI 编码 agent。 TypeScript Node.js MCP 活跃 打开 ↗" [ref=f3e129] [cursor=pointer]:
+            - generic [ref=f3e130]:
+              - generic [ref=f3e131]: AGT-02
+              - generic: "02"
+            - generic [ref=f3e136]:
+              - generic [ref=f3e137]: AI & Agents
+              - heading "Spica" [level=3] [ref=f3e139]
+              - paragraph [ref=f3e140]: 命令行编码 agent
+              - paragraph [ref=f3e141]: 一个开源的终端 AI 编码 agent。
+              - generic [ref=f3e142]:
+                - generic [ref=f3e143]: TypeScript
+                - generic [ref=f3e144]: Node.js
+                - generic [ref=f3e145]: MCP
+            - generic [ref=f3e146]:
+              - generic [ref=f3e147]: 活跃
+              - generic [ref=f3e149]: 打开 ↗
+          - button "AGT-03 03 AI & Agents 合作 Puttyon AI 服装虚拟试穿 选品类、选款、选模特，生成模特穿着这件衣服的效果图。 React 19 Spring Boot 3 MySQL 与 linnin233 共同开发；当前维护在 linnin233 已上线 打开 ↗" [ref=f3e150] [cursor=pointer]:
+            - generic [ref=f3e151]:
+              - generic [ref=f3e152]: AGT-03
+              - generic: "03"
+            - generic [ref=f3e156]:
+              - generic [ref=f3e157]:
+                - generic [ref=f3e158]: AI & Agents
+                - generic [ref=f3e159]: 合作
+              - heading "Puttyon" [level=3] [ref=f3e160]
+              - paragraph [ref=f3e161]: AI 服装虚拟试穿
+              - paragraph [ref=f3e162]: 选品类、选款、选模特，生成模特穿着这件衣服的效果图。
+              - generic [ref=f3e163]:
+                - generic [ref=f3e164]: React 19
+                - generic [ref=f3e165]: Spring Boot 3
+                - generic [ref=f3e166]: MySQL
+              - paragraph [ref=f3e167]: 与 linnin233 共同开发；当前维护在 linnin233
+            - generic [ref=f3e168]:
+              - generic [ref=f3e169]: 已上线
+              - generic [ref=f3e171]: 打开 ↗
+          - button "AGT-04 04 AI & Agents Customer Acquisition 获客 / 相似客户发现 从一批老客户里量化出「他们为什么是一类」，再去全网找同类。 JavaScript Claude Code Plugin pi-agent-core 活跃 打开 ↗" [ref=f3e172] [cursor=pointer]:
+            - generic [ref=f3e173]:
+              - generic [ref=f3e174]: AGT-04
+              - generic: "04"
+            - generic [ref=f3e179]:
+              - generic [ref=f3e180]: AI & Agents
+              - heading "Customer Acquisition" [level=3] [ref=f3e182]
+              - paragraph [ref=f3e183]: 获客 / 相似客户发现
+              - paragraph [ref=f3e184]: 从一批老客户里量化出「他们为什么是一类」，再去全网找同类。
+              - generic [ref=f3e185]:
+                - generic [ref=f3e186]: JavaScript
+                - generic [ref=f3e187]: Claude Code Plugin
+                - generic [ref=f3e188]: pi-agent-core
+            - generic [ref=f3e189]:
+              - generic [ref=f3e190]: 活跃
+              - generic [ref=f3e192]: 打开 ↗
+          - button "AGT-05 05 AI & Agents Company Background Check 企业背调 一张名片或一个公司名，跑一份带出处、带置信度的公开信息报告。 JavaScript Claude Code Plugin RDAP 活跃 打开 ↗" [ref=f3e193] [cursor=pointer]:
+            - generic [ref=f3e194]:
+              - generic [ref=f3e195]: AGT-05
+              - generic: "05"
+            - generic [ref=f3e200]:
+              - generic [ref=f3e201]: AI & Agents
+              - heading "Company Background Check" [level=3] [ref=f3e203]
+              - paragraph [ref=f3e204]: 企业背调
+              - paragraph [ref=f3e205]: 一张名片或一个公司名，跑一份带出处、带置信度的公开信息报告。
+              - generic [ref=f3e206]:
+                - generic [ref=f3e207]: JavaScript
+                - generic [ref=f3e208]: Claude Code Plugin
+                - generic [ref=f3e209]: RDAP
+            - generic [ref=f3e210]:
+              - generic [ref=f3e211]: 活跃
+              - generic [ref=f3e213]: 打开 ↗
+          - button "AGT-06 06 AI & Agents PI Company Researcher 两条 agent loop 的桌面宿主 把获客和背调两条 agent loop，装进一个说得上话的桌面应用。 Flutter Dart Node.js 活跃 打开 ↗" [ref=f3e214] [cursor=pointer]:
+            - generic [ref=f3e215]:
+              - generic [ref=f3e216]: AGT-06
+              - generic: "06"
+            - generic [ref=f3e221]:
+              - generic [ref=f3e222]: AI & Agents
+              - heading "PI Company Researcher" [level=3] [ref=f3e224]
+              - paragraph [ref=f3e225]: 两条 agent loop 的桌面宿主
+              - paragraph [ref=f3e226]: 把获客和背调两条 agent loop，装进一个说得上话的桌面应用。
+              - generic [ref=f3e227]:
+                - generic [ref=f3e228]: Flutter
+                - generic [ref=f3e229]: Dart
+                - generic [ref=f3e230]: Node.js
+            - generic [ref=f3e231]:
+              - generic [ref=f3e232]: 活跃
+              - generic [ref=f3e234]: 打开 ↗
+          - button "AGT-07 07 AI & Agents Weekly Report 从代码证据重建周报 不靠回忆，从 git 和真实文件变更里还原这一周做了什么。 JavaScript Claude Code Skill Git 活跃 打开 ↗" [ref=f3e235] [cursor=pointer]:
+            - generic [ref=f3e236]:
+              - generic [ref=f3e237]: AGT-07
+              - generic: "07"
+            - generic [ref=f3e242]:
+              - generic [ref=f3e243]: AI & Agents
+              - heading "Weekly Report" [level=3] [ref=f3e245]
+              - paragraph [ref=f3e246]: 从代码证据重建周报
+              - paragraph [ref=f3e247]: 不靠回忆，从 git 和真实文件变更里还原这一周做了什么。
+              - generic [ref=f3e248]:
+                - generic [ref=f3e249]: JavaScript
+                - generic [ref=f3e250]: Claude Code Skill
+                - generic [ref=f3e251]: Git
+            - generic [ref=f3e252]:
+              - generic [ref=f3e253]: 活跃
+              - generic [ref=f3e255]: 打开 ↗
+          - button "AGT-08 08 AI & Agents 合集 Zis Skills Collection Claude Code Skills 合集 57 个 Claude Code Skills，覆盖工程、设计、评审与 TDD。 Markdown Claude Code 合集；部分 skill 来自社区，保留原署名 活跃 打开 ↗" [ref=f3e256] [cursor=pointer]:
+            - generic [ref=f3e257]:
+              - generic [ref=f3e258]: AGT-08
+              - generic: "08"
+            - generic [ref=f3e262]:
+              - generic [ref=f3e263]:
+                - generic [ref=f3e264]: AI & Agents
+                - generic [ref=f3e265]: 合集
+              - heading "Zis Skills Collection" [level=3] [ref=f3e266]
+              - paragraph [ref=f3e267]: Claude Code Skills 合集
+              - paragraph [ref=f3e268]: 57 个 Claude Code Skills，覆盖工程、设计、评审与 TDD。
+              - generic [ref=f3e269]:
+                - generic [ref=f3e270]: Markdown
+                - generic [ref=f3e271]: Claude Code
+              - paragraph [ref=f3e272]: 合集；部分 skill 来自社区，保留原署名
+            - generic [ref=f3e273]:
+              - generic [ref=f3e274]: 活跃
+              - generic [ref=f3e276]: 打开 ↗
+          - button "AGT-09 09 AI & Agents WFY RAG 外贸女装私有 RAG 把公司文档变成能回答问题的私有知识助手。 Bun Elysia LanceDB 活跃 打开 ↗" [ref=f3e277] [cursor=pointer]:
+            - generic [ref=f3e278]:
+              - generic [ref=f3e279]: AGT-09
+              - generic: "09"
+            - generic [ref=f3e284]:
+              - generic [ref=f3e285]: AI & Agents
+              - heading "WFY RAG" [level=3] [ref=f3e287]
+              - paragraph [ref=f3e288]: 外贸女装私有 RAG
+              - paragraph [ref=f3e289]: 把公司文档变成能回答问题的私有知识助手。
+              - generic [ref=f3e290]:
+                - generic [ref=f3e291]: Bun
+                - generic [ref=f3e292]: Elysia
+                - generic [ref=f3e293]: LanceDB
+            - generic [ref=f3e294]:
+              - generic [ref=f3e295]: 活跃
+              - generic [ref=f3e297]: 打开 ↗
+          - button "AGT-10 10 AI & Agents Literia 外贸文档翻译 给外贸行业用的文档翻译工具，译完还要能直接发出去。 Bun Hono TypeScript 活跃 打开 ↗" [ref=f3e298] [cursor=pointer]:
+            - generic [ref=f3e299]:
+              - generic [ref=f3e300]: AGT-10
+              - generic: "10"
+            - generic [ref=f3e305]:
+              - generic [ref=f3e306]: AI & Agents
+              - heading "Literia" [level=3] [ref=f3e308]
+              - paragraph [ref=f3e309]: 外贸文档翻译
+              - paragraph [ref=f3e310]: 给外贸行业用的文档翻译工具，译完还要能直接发出去。
+              - generic [ref=f3e311]:
+                - generic [ref=f3e312]: Bun
+                - generic [ref=f3e313]: Hono
+                - generic [ref=f3e314]: TypeScript
+            - generic [ref=f3e315]:
+              - generic [ref=f3e316]: 活跃
+              - generic [ref=f3e318]: 打开 ↗
+          - button "TEX-01 11 Textile & Apparel FEATURED Fabric Pattern Matcher 面料花型匹配 拍一张照片，在十万级花型库里找到最像的那块布。 Python CLIP FAISS 活跃 打开 ↗" [ref=f3e319] [cursor=pointer]:
+            - generic [ref=f3e320]:
+              - generic [ref=f3e321]: TEX-01
+              - generic: "11"
+            - generic [ref=f3e326]:
+              - generic [ref=f3e327]:
+                - generic [ref=f3e328]: Textile & Apparel
+                - generic [ref=f3e329]: FEATURED
+              - heading "Fabric Pattern Matcher" [level=3] [ref=f3e330]
+              - paragraph [ref=f3e331]: 面料花型匹配
+              - paragraph [ref=f3e332]: 拍一张照片，在十万级花型库里找到最像的那块布。
+              - generic [ref=f3e333]:
+                - generic [ref=f3e334]: Python
+                - generic [ref=f3e335]: CLIP
+                - generic [ref=f3e336]: FAISS
+            - generic [ref=f3e337]:
+              - generic [ref=f3e338]: 活跃
+              - generic [ref=f3e340]: 打开 ↗
+          - button "TEX-02 12 Textile & Apparel FEATURED Pattern Separator 花型描稿分色 从设计稿一路做到可以直接晒网的单色菲林。 Node.js Canvas KMeans++ 活跃 打开 ↗" [ref=f3e341] [cursor=pointer]:
+            - generic [ref=f3e342]:
+              - generic [ref=f3e343]: TEX-02
+              - generic: "12"
+            - generic [ref=f3e349]:
+              - generic [ref=f3e350]:
+                - generic [ref=f3e351]: Textile & Apparel
+                - generic [ref=f3e352]: FEATURED
+              - heading "Pattern Separator" [level=3] [ref=f3e353]
+              - paragraph [ref=f3e354]: 花型描稿分色
+              - paragraph [ref=f3e355]: 从设计稿一路做到可以直接晒网的单色菲林。
+              - generic [ref=f3e356]:
+                - generic [ref=f3e357]: Node.js
+                - generic [ref=f3e358]: Canvas
+                - generic [ref=f3e359]: KMeans++
+            - generic [ref=f3e360]:
+              - generic [ref=f3e361]: 活跃
+              - generic [ref=f3e363]: 打开 ↗
+          - button "TEX-03 13 Textile & Apparel JCH Reverse 金昌 JCH 格式逆向 把金昌 EX9000 的私有工程格式，逆向到能读、能渲染。 Python Reverse Engineering Binary Formats 活跃 打开 ↗" [ref=f3e364] [cursor=pointer]:
+            - generic [ref=f3e365]:
+              - generic [ref=f3e366]: TEX-03
+              - generic: "13"
+            - generic [ref=f3e370]:
+              - generic [ref=f3e371]: Textile & Apparel
+              - heading "JCH Reverse" [level=3] [ref=f3e373]
+              - paragraph [ref=f3e374]: 金昌 JCH 格式逆向
+              - paragraph [ref=f3e375]: 把金昌 EX9000 的私有工程格式，逆向到能读、能渲染。
+              - generic [ref=f3e376]:
+                - generic [ref=f3e377]: Python
+                - generic [ref=f3e378]: Reverse Engineering
+                - generic [ref=f3e379]: Binary Formats
+            - generic [ref=f3e380]:
+              - generic [ref=f3e381]: 活跃
+              - generic [ref=f3e383]: 打开 ↗
+          - button "TEX-04 14 Textile & Apparel JCH Recolor JCH 花型换色 拿一张参考图，反解每个图层该用什么颜色，再写回 JCH。 Python JCH Color Matching 活跃 打开 ↗" [ref=f3e384] [cursor=pointer]:
+            - generic [ref=f3e385]:
+              - generic [ref=f3e386]: TEX-04
+              - generic: "14"
+            - generic [ref=f3e394]:
+              - generic [ref=f3e395]: Textile & Apparel
+              - heading "JCH Recolor" [level=3] [ref=f3e397]
+              - paragraph [ref=f3e398]: JCH 花型换色
+              - paragraph [ref=f3e399]: 拿一张参考图，反解每个图层该用什么颜色，再写回 JCH。
+              - generic [ref=f3e400]:
+                - generic [ref=f3e401]: Python
+                - generic [ref=f3e402]: JCH
+                - generic [ref=f3e403]: Color Matching
+            - generic [ref=f3e404]:
+              - generic [ref=f3e405]: 活跃
+              - generic [ref=f3e407]: 打开 ↗
+          - button "TEX-05 15 Textile & Apparel Inch → CM 尺寸表英寸转厘米 把尺寸表里的英寸原位换成厘米，别的一个字都不动。 Python PDF 活跃 打开 ↗" [ref=f3e408] [cursor=pointer]:
+            - generic [ref=f3e409]:
+              - generic [ref=f3e410]: TEX-05
+              - generic: "15"
+            - generic [ref=f3e415]:
+              - generic [ref=f3e416]: Textile & Apparel
+              - heading "Inch → CM" [level=3] [ref=f3e418]
+              - paragraph [ref=f3e419]: 尺寸表英寸转厘米
+              - paragraph [ref=f3e420]: 把尺寸表里的英寸原位换成厘米，别的一个字都不动。
+              - generic [ref=f3e421]:
+                - generic [ref=f3e422]: Python
+                - generic [ref=f3e423]: PDF
+            - generic [ref=f3e424]:
+              - generic [ref=f3e425]: 活跃
+              - generic [ref=f3e427]: 打开 ↗
+          - button "TEX-06 16 Textile & Apparel Label Extractor 吊牌 PDF 提取 从吊牌贴纸 PDF 里 OCR 出编号、尺码、品名，导成 Excel。 Python OCR Excel 活跃 打开 ↗" [ref=f3e428] [cursor=pointer]:
+            - generic [ref=f3e429]:
+              - generic [ref=f3e430]: TEX-06
+              - generic: "16"
+            - generic [ref=f3e435]:
+              - generic [ref=f3e436]: Textile & Apparel
+              - heading "Label Extractor" [level=3] [ref=f3e438]
+              - paragraph [ref=f3e439]: 吊牌 PDF 提取
+              - paragraph [ref=f3e440]: 从吊牌贴纸 PDF 里 OCR 出编号、尺码、品名，导成 Excel。
+              - generic [ref=f3e441]:
+                - generic [ref=f3e442]: Python
+                - generic [ref=f3e443]: OCR
+                - generic [ref=f3e444]: Excel
+            - generic [ref=f3e445]:
+              - generic [ref=f3e446]: 活跃
+              - generic [ref=f3e448]: 打开 ↗
+          - button "TEX-07 17 Textile & Apparel Label Studio 标签设计与打印 导 CSV / Excel，把文字、条码、Logo 拖到标签画布上直接打印。 Next.js React Barcode 活跃 打开 ↗" [ref=f3e449] [cursor=pointer]:
+            - generic [ref=f3e450]:
+              - generic [ref=f3e451]: TEX-07
+              - generic: "17"
+            - generic [ref=f3e455]:
+              - generic [ref=f3e456]: Textile & Apparel
+              - heading "Label Studio" [level=3] [ref=f3e458]
+              - paragraph [ref=f3e459]: 标签设计与打印
+              - paragraph [ref=f3e460]: 导 CSV / Excel，把文字、条码、Logo 拖到标签画布上直接打印。
+              - generic [ref=f3e461]:
+                - generic [ref=f3e462]: Next.js
+                - generic [ref=f3e463]: React
+                - generic [ref=f3e464]: Barcode
+            - generic [ref=f3e465]:
+              - generic [ref=f3e466]: 活跃
+              - generic [ref=f3e468]: 打开 ↗
+          - button "TEX-08 18 Textile & Apparel Garment Front-Back Stitcher 服装正反面拼接 正反面两张样品照，自动拼成一张 1:1 正方形。 Python CustomTkinter rembg 活跃 打开 ↗" [ref=f3e469] [cursor=pointer]:
+            - generic [ref=f3e470]:
+              - generic [ref=f3e471]: TEX-08
+              - generic: "18"
+            - generic [ref=f3e475]:
+              - generic [ref=f3e476]: Textile & Apparel
+              - heading "Garment Front-Back Stitcher" [level=3] [ref=f3e478]
+              - paragraph [ref=f3e479]: 服装正反面拼接
+              - paragraph [ref=f3e480]: 正反面两张样品照，自动拼成一张 1:1 正方形。
+              - generic [ref=f3e481]:
+                - generic [ref=f3e482]: Python
+                - generic [ref=f3e483]: CustomTkinter
+                - generic [ref=f3e484]: rembg
+            - generic [ref=f3e485]:
+              - generic [ref=f3e486]: 活跃
+              - generic [ref=f3e488]: 打开 ↗
+          - button "TEX-09 19 Textile & Apparel AutoCatalogue 服装目录自动排版 商品照片进，印刷级 Lookbook HTML / PDF 出。 Python Spring Boot React 活跃 打开 ↗" [ref=f3e489] [cursor=pointer]:
+            - generic [ref=f3e490]:
+              - generic [ref=f3e491]: TEX-09
+              - generic: "19"
+            - generic [ref=f3e498]:
+              - generic [ref=f3e499]: Textile & Apparel
+              - heading "AutoCatalogue" [level=3] [ref=f3e501]
+              - paragraph [ref=f3e502]: 服装目录自动排版
+              - paragraph [ref=f3e503]: 商品照片进，印刷级 Lookbook HTML / PDF 出。
+              - generic [ref=f3e504]:
+                - generic [ref=f3e505]: Python
+                - generic [ref=f3e506]: Spring Boot
+                - generic [ref=f3e507]: React
+            - generic [ref=f3e508]:
+              - generic [ref=f3e509]: 活跃
+              - generic [ref=f3e511]: 打开 ↗
+          - button "TEX-10 20 Textile & Apparel Stockmanage 库位预览 按楼层、排、架、层，看每个货位上有什么订单、还剩多少空位。 Python ERP Local Web 活跃 打开 ↗" [ref=f3e512] [cursor=pointer]:
+            - generic [ref=f3e513]:
+              - generic [ref=f3e514]: TEX-10
+              - generic: "20"
+            - generic [ref=f3e519]:
+              - generic [ref=f3e520]: Textile & Apparel
+              - heading "Stockmanage" [level=3] [ref=f3e522]
+              - paragraph [ref=f3e523]: 库位预览
+              - paragraph [ref=f3e524]: 按楼层、排、架、层，看每个货位上有什么订单、还剩多少空位。
+              - generic [ref=f3e525]:
+                - generic [ref=f3e526]: Python
+                - generic [ref=f3e527]: ERP
+                - generic [ref=f3e528]: Local Web
+            - generic [ref=f3e529]:
+              - generic [ref=f3e530]: 活跃
+              - generic [ref=f3e532]: 打开 ↗
+          - button "TEX-11 21 Textile & Apparel QRQuote 广交会扫码报价 样品贴二维码，客户扫码直接看款号、成分和参考价。 TypeScript Next.js Prisma 活跃 打开 ↗" [ref=f3e533] [cursor=pointer]:
+            - generic [ref=f3e534]:
+              - generic [ref=f3e535]: TEX-11
+              - generic: "21"
+            - generic [ref=f3e542]:
+              - generic [ref=f3e543]: Textile & Apparel
+              - heading "QRQuote" [level=3] [ref=f3e545]
+              - paragraph [ref=f3e546]: 广交会扫码报价
+              - paragraph [ref=f3e547]: 样品贴二维码，客户扫码直接看款号、成分和参考价。
+              - generic [ref=f3e548]:
+                - generic [ref=f3e549]: TypeScript
+                - generic [ref=f3e550]: Next.js
+                - generic [ref=f3e551]: Prisma
+            - generic [ref=f3e552]:
+              - generic [ref=f3e553]: 活跃
+              - generic [ref=f3e555]: 打开 ↗
+          - button "TEX-12 22 Textile & Apparel Buzhidao · 布知道 面料知识库 + 安卓 App 给外贸新人的面料知识库，离线可用，中英对照。 Flutter Dart Android 活跃 打开 ↗" [ref=f3e556] [cursor=pointer]:
+            - generic [ref=f3e557]:
+              - generic [ref=f3e558]: TEX-12
+              - generic: "22"
+            - generic [ref=f3e562]:
+              - generic [ref=f3e563]: Textile & Apparel
+              - heading "Buzhidao · 布知道" [level=3] [ref=f3e565]
+              - paragraph [ref=f3e566]: 面料知识库 + 安卓 App
+              - paragraph [ref=f3e567]: 给外贸新人的面料知识库，离线可用，中英对照。
+              - generic [ref=f3e568]:
+                - generic [ref=f3e569]: Flutter
+                - generic [ref=f3e570]: Dart
+                - generic [ref=f3e571]: Android
+            - generic [ref=f3e572]:
+              - generic [ref=f3e573]: 活跃
+              - generic [ref=f3e575]: 打开 ↗
+          - button "TEX-13 23 Textile & Apparel AAPS Agent + APS 生产排期 从 ERP 只读取数，把服装生产排期做成能算的系统。 TypeScript Python ERP 活跃 打开 ↗" [ref=f3e576] [cursor=pointer]:
+            - generic [ref=f3e577]:
+              - generic [ref=f3e578]: TEX-13
+              - generic: "23"
+            - generic [ref=f3e583]:
+              - generic [ref=f3e584]: Textile & Apparel
+              - heading "AAPS" [level=3] [ref=f3e586]
+              - paragraph [ref=f3e587]: Agent + APS 生产排期
+              - paragraph [ref=f3e588]: 从 ERP 只读取数，把服装生产排期做成能算的系统。
+              - generic [ref=f3e589]:
+                - generic [ref=f3e590]: TypeScript
+                - generic [ref=f3e591]: Python
+                - generic [ref=f3e592]: ERP
+            - generic [ref=f3e593]:
+              - generic [ref=f3e594]: 活跃
+              - generic [ref=f3e596]: 打开 ↗
+          - button "MUS-01 24 Music & Hardware 参与 SLOOP FM-1 现场 groovebox 固件 给 M-VAVE FM-1 写的 4 轨合成器 / 鼓机音序器。 C Embedded FM-1 原作 isod89 · 基于 Leo Kuroshita 的 Felucca；我在 fork 上做主题与安卓编辑器 ↗ 活跃 打开 ↗" [ref=f3e597] [cursor=pointer]:
+            - generic [ref=f3e598]:
+              - generic [ref=f3e599]: MUS-01
+              - generic: "24"
+            - generic [ref=f3e603]:
+              - generic [ref=f3e604]:
+                - generic [ref=f3e605]: Music & Hardware
+                - generic [ref=f3e606]: 参与
+              - heading "SLOOP" [level=3] [ref=f3e607]
+              - paragraph [ref=f3e608]: FM-1 现场 groovebox 固件
+              - paragraph [ref=f3e609]: 给 M-VAVE FM-1 写的 4 轨合成器 / 鼓机音序器。
+              - generic [ref=f3e610]:
+                - generic [ref=f3e611]: C
+                - generic [ref=f3e612]: Embedded
+                - generic [ref=f3e613]: FM-1
+              - paragraph [ref=f3e614]:
+                - link "原作 isod89 · 基于 Leo Kuroshita 的 Felucca；我在 fork 上做主题与安卓编辑器 ↗" [ref=f3e615]:
+                  - /url: https://github.com/isod89/sloop-fm1
+            - generic [ref=f3e616]:
+              - generic [ref=f3e617]: 活跃
+              - generic [ref=f3e619]: 打开 ↗
+          - button "MUS-02 25 Music & Hardware 衍生 CRATE FM-1 切片采样器 FM-1 上的采样、切片与 16 键演奏工作站。 C Embedded FM-1 应用层原创；HAL、更新链与安装器复用 Felucca / SLOOP（Leo Kuroshita / isod89） ↗ 开发中 打开 ↗" [ref=f3e620] [cursor=pointer]:
+            - generic [ref=f3e621]:
+              - generic [ref=f3e622]: MUS-02
+              - generic: "25"
+            - generic [ref=f3e626]:
+              - generic [ref=f3e627]:
+                - generic [ref=f3e628]: Music & Hardware
+                - generic [ref=f3e629]: 衍生
+              - heading "CRATE" [level=3] [ref=f3e630]
+              - paragraph [ref=f3e631]: FM-1 切片采样器
+              - paragraph [ref=f3e632]: FM-1 上的采样、切片与 16 键演奏工作站。
+              - generic [ref=f3e633]:
+                - generic [ref=f3e634]: C
+                - generic [ref=f3e635]: Embedded
+                - generic [ref=f3e636]: FM-1
+              - paragraph [ref=f3e637]:
+                - link "应用层原创；HAL、更新链与安装器复用 Felucca / SLOOP（Leo Kuroshita / isod89） ↗" [ref=f3e638]:
+                  - /url: https://github.com/isod89/sloop-fm1
+            - generic [ref=f3e639]:
+              - generic [ref=f3e640]: 开发中
+              - generic [ref=f3e642]: 打开 ↗
+          - button "MUS-03 26 Music & Hardware Consort FM-1 手机伴侣 用手机管理 FM-1 上那些机器上不好做的事。 JavaScript Android USB MIDI 为 SLOOP 2.7 做的手机伴侣；SLOOP 原作 isod89 ↗ 已上线 打开 ↗" [ref=f3e643] [cursor=pointer]:
+            - generic [ref=f3e644]:
+              - generic [ref=f3e645]: MUS-03
+              - generic: "26"
+            - generic [ref=f3e649]:
+              - generic [ref=f3e650]: Music & Hardware
+              - heading "Consort" [level=3] [ref=f3e652]
+              - paragraph [ref=f3e653]: FM-1 手机伴侣
+              - paragraph [ref=f3e654]: 用手机管理 FM-1 上那些机器上不好做的事。
+              - generic [ref=f3e655]:
+                - generic [ref=f3e656]: JavaScript
+                - generic [ref=f3e657]: Android
+                - generic [ref=f3e658]: USB MIDI
+              - paragraph [ref=f3e659]:
+                - link "为 SLOOP 2.7 做的手机伴侣；SLOOP 原作 isod89 ↗" [ref=f3e660]:
+                  - /url: https://github.com/isod89/sloop-fm1
+            - generic [ref=f3e661]:
+              - generic [ref=f3e662]: 已上线
+              - generic [ref=f3e664]: 打开 ↗
+          - button "MUS-04 27 Music & Hardware FEATURED NAM FORGE NAM → Zoom ZDL 工作台 把 NAM 音色变成 Zoom MultiStomp 的 ZDL，再画一张 128×64 封面。 HTML JavaScript Web Audio 转换链基于 NAMLite 0.26 与 Zoom Effect Manager 已上线 打开 ↗" [ref=f3e665] [cursor=pointer]:
+            - generic [ref=f3e666]:
+              - generic [ref=f3e667]: MUS-04
+              - generic: "27"
+            - generic [ref=f3e671]:
+              - generic [ref=f3e672]:
+                - generic [ref=f3e673]: Music & Hardware
+                - generic [ref=f3e674]: FEATURED
+              - heading "NAM FORGE" [level=3] [ref=f3e675]
+              - paragraph [ref=f3e676]: NAM → Zoom ZDL 工作台
+              - paragraph [ref=f3e677]: 把 NAM 音色变成 Zoom MultiStomp 的 ZDL，再画一张 128×64 封面。
+              - generic [ref=f3e678]:
+                - generic [ref=f3e679]: HTML
+                - generic [ref=f3e680]: JavaScript
+                - generic [ref=f3e681]: Web Audio
+              - paragraph [ref=f3e682]: 转换链基于 NAMLite 0.26 与 Zoom Effect Manager
+            - generic [ref=f3e683]:
+              - generic [ref=f3e684]: 已上线
+              - generic [ref=f3e686]: 打开 ↗
+          - button "MUS-05 28 Music & Hardware NAM FORGE Covers 128×64 封面库 给 Zoom MultiStomp 用的共享封面库，下载即用。 HTML GitHub Actions 已上线 打开 ↗" [ref=f3e687] [cursor=pointer]:
+            - generic [ref=f3e688]:
+              - generic [ref=f3e689]: MUS-05
+              - generic: "28"
+            - generic [ref=f3e695]:
+              - generic [ref=f3e696]: Music & Hardware
+              - heading "NAM FORGE Covers" [level=3] [ref=f3e698]
+              - paragraph [ref=f3e699]: 128×64 封面库
+              - paragraph [ref=f3e700]: 给 Zoom MultiStomp 用的共享封面库，下载即用。
+              - generic [ref=f3e701]:
+                - generic [ref=f3e702]: HTML
+                - generic [ref=f3e703]: GitHub Actions
+            - generic [ref=f3e704]:
+              - generic [ref=f3e705]: 已上线
+              - generic [ref=f3e707]: 打开 ↗
+          - button "MUS-06 29 Music & Hardware 参与 G1on · Zoom RE Zoom 效果器逆向 把 Zoom G1on / B1on 的固件和 ZDL 效果拆开，再写回去。 Python C Ghidra g1on CLI 原作 SysExTones（fork）；固件逆向、Ghidra C6000 模块与自制 ZDL 效果为原创 ↗ 活跃 打开 ↗" [ref=f3e708] [cursor=pointer]:
+            - generic [ref=f3e709]:
+              - generic [ref=f3e710]: MUS-06
+              - generic: "29"
+            - generic [ref=f3e715]:
+              - generic [ref=f3e716]:
+                - generic [ref=f3e717]: Music & Hardware
+                - generic [ref=f3e718]: 参与
+              - heading "G1on · Zoom RE" [level=3] [ref=f3e719]
+              - paragraph [ref=f3e720]: Zoom 效果器逆向
+              - paragraph [ref=f3e721]: 把 Zoom G1on / B1on 的固件和 ZDL 效果拆开，再写回去。
+              - generic [ref=f3e722]:
+                - generic [ref=f3e723]: Python
+                - generic [ref=f3e724]: C
+                - generic [ref=f3e725]: Ghidra
+              - paragraph [ref=f3e726]:
+                - link "g1on CLI 原作 SysExTones（fork）；固件逆向、Ghidra C6000 模块与自制 ZDL 效果为原创 ↗" [ref=f3e727]:
+                  - /url: https://github.com/SysExTones/g1on
+            - generic [ref=f3e728]:
+              - generic [ref=f3e729]: 活跃
+              - generic [ref=f3e731]: 打开 ↗
+          - button "MUS-07 30 Music & Hardware FRET 跑场乐理 吉他手的和弦库、封闭指型训练与级数练习。 JavaScript Web Audio LocalStorage 活跃 打开 ↗" [ref=f3e732] [cursor=pointer]:
+            - generic [ref=f3e733]:
+              - generic [ref=f3e734]: MUS-07
+              - generic: "30"
+            - generic [ref=f3e739]:
+              - generic [ref=f3e740]: Music & Hardware
+              - heading "FRET" [level=3] [ref=f3e742]
+              - paragraph [ref=f3e743]: 跑场乐理
+              - paragraph [ref=f3e744]: 吉他手的和弦库、封闭指型训练与级数练习。
+              - generic [ref=f3e745]:
+                - generic [ref=f3e746]: JavaScript
+                - generic [ref=f3e747]: Web Audio
+                - generic [ref=f3e748]: LocalStorage
+            - generic [ref=f3e749]:
+              - generic [ref=f3e750]: 活跃
+              - generic [ref=f3e752]: 打开 ↗
+          - button "MUS-08 31 Music & Hardware Beike Music 贝壳音乐 · 曲谱库 一个只有搜索框的曲谱站。 JavaScript GitHub Pages 已上线 打开 ↗" [ref=f3e753] [cursor=pointer]:
+            - generic [ref=f3e754]:
+              - generic [ref=f3e755]: MUS-08
+              - generic: "31"
+            - generic [ref=f3e759]:
+              - generic [ref=f3e760]: Music & Hardware
+              - heading "Beike Music" [level=3] [ref=f3e762]
+              - paragraph [ref=f3e763]: 贝壳音乐 · 曲谱库
+              - paragraph [ref=f3e764]: 一个只有搜索框的曲谱站。
+              - generic [ref=f3e765]:
+                - generic [ref=f3e766]: JavaScript
+                - generic [ref=f3e767]: GitHub Pages
+            - generic [ref=f3e768]:
+              - generic [ref=f3e769]: 已上线
+              - generic [ref=f3e771]: 打开 ↗
+          - button "TOOL-01 32 Systems & Tools Meeting Recorder 会议纪要助手 完全本地的会议录音转写与结构化纪要。 Electron whisper.cpp Node.js 活跃 打开 ↗" [ref=f3e772] [cursor=pointer]:
+            - generic [ref=f3e773]:
+              - generic [ref=f3e774]: TOOL-01
+              - generic: "32"
+            - generic [ref=f3e779]:
+              - generic [ref=f3e780]: Systems & Tools
+              - heading "Meeting Recorder" [level=3] [ref=f3e782]
+              - paragraph [ref=f3e783]: 会议纪要助手
+              - paragraph [ref=f3e784]: 完全本地的会议录音转写与结构化纪要。
+              - generic [ref=f3e785]:
+                - generic [ref=f3e786]: Electron
+                - generic [ref=f3e787]: whisper.cpp
+                - generic [ref=f3e788]: Node.js
+            - generic [ref=f3e789]:
+              - generic [ref=f3e790]: 活跃
+              - generic [ref=f3e792]: 打开 ↗
+          - button "TOOL-02 33 Systems & Tools Spidex Android 码表 不是带骑行模式的健身 App，是装上车把就能忘掉六小时的码表。 Android Kotlin Compose 活跃 打开 ↗" [ref=f3e793] [cursor=pointer]:
+            - generic [ref=f3e794]:
+              - generic [ref=f3e795]: TOOL-02
+              - generic: "33"
+            - generic [ref=f3e801]:
+              - generic [ref=f3e802]: Systems & Tools
+              - heading "Spidex" [level=3] [ref=f3e804]
+              - paragraph [ref=f3e805]: Android 码表
+              - paragraph [ref=f3e806]: 不是带骑行模式的健身 App，是装上车把就能忘掉六小时的码表。
+              - generic [ref=f3e807]:
+                - generic [ref=f3e808]: Android
+                - generic [ref=f3e809]: Kotlin
+                - generic [ref=f3e810]: Compose
+            - generic [ref=f3e811]:
+              - generic [ref=f3e812]: 活跃
+              - generic [ref=f3e814]: 打开 ↗
+          - button "TOOL-03 34 Systems & Tools Quant 短线 A 股量化 全市场数据采集 → 统计验证 → 决策 → 回测 → 半自动交易。 Python pandas akshare 活跃 打开 ↗" [ref=f3e815] [cursor=pointer]:
+            - generic [ref=f3e816]:
+              - generic [ref=f3e817]: TOOL-03
+              - generic: "34"
+            - generic [ref=f3e822]:
+              - generic [ref=f3e823]: Systems & Tools
+              - heading "Quant" [level=3] [ref=f3e825]
+              - paragraph [ref=f3e826]: 短线 A 股量化
+              - paragraph [ref=f3e827]: 全市场数据采集 → 统计验证 → 决策 → 回测 → 半自动交易。
+              - generic [ref=f3e828]:
+                - generic [ref=f3e829]: Python
+                - generic [ref=f3e830]: pandas
+                - generic [ref=f3e831]: akshare
+            - generic [ref=f3e832]:
+              - generic [ref=f3e833]: 活跃
+              - generic [ref=f3e835]: 打开 ↗
+        - region [ref=f3e836]:
+          - generic [ref=f3e837]:
+            - heading "MORE ON GITHUB" [level=3] [ref=f3e838]
+            - generic [ref=f3e839]: 其他公开仓库
+          - list [ref=f3e840]:
+            - listitem [ref=f3e841]:
+              - link "Swaynav Wayland 键盘驱动鼠标 · Vim 风格网格导航" [ref=f3e842] [cursor=pointer]:
+                - /url: https://github.com/zisonzishen0415-stack/swaynav
+                - generic [ref=f3e843]: Swaynav
+                - generic [ref=f3e844]: Wayland 键盘驱动鼠标 · Vim 风格网格导航
+            - listitem [ref=f3e845]:
+              - link "Clashtui Clash / mihomo 代理 TUI 管理器" [ref=f3e846] [cursor=pointer]:
+                - /url: https://github.com/zisonzishen0415-stack/clashtui
+                - generic [ref=f3e847]: Clashtui
+                - generic [ref=f3e848]: Clash / mihomo 代理 TUI 管理器
+            - listitem [ref=f3e849]:
+              - link "Blocking Guard 阻止 AI agent 执行阻塞命令" [ref=f3e850] [cursor=pointer]:
+                - /url: https://github.com/zisonzishen0415-stack/blocking-guard
+                - generic [ref=f3e851]: Blocking Guard
+                - generic [ref=f3e852]: 阻止 AI agent 执行阻塞命令
+            - listitem [ref=f3e853]:
+              - link "AmpNeve Zoom G1on / B1on 的 ZDL 效果模块" [ref=f3e854] [cursor=pointer]:
+                - /url: https://github.com/zisonzishen0415-stack/ampneve
+                - generic [ref=f3e855]: AmpNeve
+                - generic [ref=f3e856]: Zoom G1on / B1on 的 ZDL 效果模块
+            - listitem [ref=f3e857]:
+              - link "SansAmp B1on SansAmp Bass Driver 白盒电路复刻" [ref=f3e858] [cursor=pointer]:
+                - /url: https://github.com/zisonzishen0415-stack/sansamp-b1on
+                - generic [ref=f3e859]: SansAmp B1on
+                - generic [ref=f3e860]: SansAmp Bass Driver 白盒电路复刻
+            - listitem [ref=f3e861]:
+              - link "ESP32 FDN Reverb ESP32 实时 FDN 混响" [ref=f3e862] [cursor=pointer]:
+                - /url: https://github.com/zisonzishen0415-stack/esp32-fdnreverb
+                - generic [ref=f3e863]: ESP32 FDN Reverb
+                - generic [ref=f3e864]: ESP32 实时 FDN 混响
+            - listitem [ref=f3e865]:
+              - link "TrackPoint Config ThinkPad 小红点 TUI 配置工具" [ref=f3e866] [cursor=pointer]:
+                - /url: https://github.com/zisonzishen0415-stack/trackpoint-config
+                - generic [ref=f3e867]: TrackPoint Config
+                - generic [ref=f3e868]: ThinkPad 小红点 TUI 配置工具
+            - listitem [ref=f3e869]:
+              - link "SDDM Nord Login Nord 配色的 SDDM 登录主题" [ref=f3e870] [cursor=pointer]:
+                - /url: https://github.com/zisonzishen0415-stack/SDDM-nord-login
+                - generic [ref=f3e871]: SDDM Nord Login
+                - generic [ref=f3e872]: Nord 配色的 SDDM 登录主题
+    - text: ■ ■
+    - generic [ref=f3e873]:
+      - generic [ref=f3e874]: ZISON.
+      - generic [ref=f3e875]:
+        - paragraph [ref=f3e876]: © 2026 Zison Wong · 金华，浙江
+        - paragraph [ref=f3e877]: 原创 / 参与 / fork 逐项署名 · Static HTML · Hosted on GitHub Pages
+      - generic [ref=f3e878]:
+        - link "GITHUB ↗" [ref=f3e879] [cursor=pointer]:
+          - /url: https://github.com/zisonzishen0415-stack
+        - link "ABOUT" [ref=f3e880] [cursor=pointer]:
+          - /url: "#/about"
+        - link "LINKS" [ref=f3e881] [cursor=pointer]:
+          - /url: "#/links"
